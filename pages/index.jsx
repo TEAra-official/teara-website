@@ -7,7 +7,6 @@ import About from './components/about'
 import Activities from './components/activities'
 import Contact from './components/contact'
 import Members from './components/members'
-import Navbutton from './components/navbutton'
 
 export default function Home() {
   return (
@@ -26,14 +25,6 @@ export default function Home() {
         </p>
       </Container>
       
-      <header>
-        <nav>
-          <Navbutton index="about"/>
-          <Navbutton index="activities"/>
-          <Navbutton index="members"/>
-          <Navbutton index="contact"/>
-        </nav>
-      </header>
 
       <About/>
       <section id = "about"/>

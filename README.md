@@ -1,5 +1,6 @@
 # Teara Website
 
+## Get Start
 ```
 $ npm run dev
     Starts the development server.
@@ -13,3 +14,7 @@ $ npm start
 We suggest that you begin by typing:
 $ npm run dev
 ```
+
+## Other Information
+- [Branch regulation](doc/branch.md)
+- [Commit regulation](doc/commit.md)
