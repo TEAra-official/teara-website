@@ -1,5 +1,4 @@
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap'
-import Navbutton from './components/navbutton'
 import {Link as Scroll} from "react-scroll"
 
 export default function TearaNavbar() {
