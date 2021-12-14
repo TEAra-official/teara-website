@@ -10,13 +10,13 @@ export default function TearaNavbar() {
               <Scroll to="about" smooth={true} duration={600} offset={100}>about</Scroll>
             </Nav.Link>
             <Nav.Link>
-            <Scroll to="activities" smooth={true} duration={600} offset={100}>activities</Scroll>
+              <Scroll to="activities" smooth={true} duration={600} offset={100}>activities</Scroll>
             </Nav.Link>
             <Nav.Link>
-            <Scroll to="members" smooth={true} duration={600} offset={100}>members</Scroll>
+              <Scroll to="members" smooth={true} duration={600} offset={100}>members</Scroll>
             </Nav.Link>
             <Nav.Link>
-            <Scroll to="contact" smooth={true} duration={600} offset={100}>contact</Scroll>
+              <Scroll to="contact" smooth={true} duration={600} offset={100}>contact</Scroll>
             </Nav.Link>
             
           </Container>
