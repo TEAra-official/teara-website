@@ -11,16 +11,41 @@
   margin: 1rem 0;
 }
 
-.cntr-footer {
+.footer-background {
   height: 80px;
+  width: 100%;
   margin-top: 20px;
+  background-image: url(../public/background.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 40%;
+  background-size: cover;
+}
+
+.filter {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 1px solid #ccc;
+
 }
 
-.sml-logo {
-  height: 1em;
-  margin-left: 10px;
+.twitter-logo {
+  height: 1.8em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+
+.github-logo {
+  height: 2em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+
+.copyright {
+  font-size: 1em;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  color: aliceblue;
 }
