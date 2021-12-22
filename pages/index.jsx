@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <Container className="md-container">
       <Head>
-        <title>ReactJS with react-bootstrap</title>
-        <link rel="icon" href="/favicon-32x32.png" />
+        <title>TEAra|お茶大開発コミュニティ</title>
+        <link rel="icon" href="/teara_white_trans.png" />
       </Head>
       <TearaNavbar/>
       <Container>
