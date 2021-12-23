@@ -7,6 +7,7 @@ import About from './components/about'
 import Activities from './components/activities'
 import Contact from './components/contact'
 import Members from './components/members'
+import MainTitle from './components/main-title'
 
 export default function Home() {
   return (
@@ -16,16 +17,7 @@ export default function Home() {
         <link rel="icon" href="/teara_white_trans.png" />
       </Head>
       <TearaNavbar/>
-      <Container>
-        <h1>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-        <p>
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </Container>
-      
-
+      <MainTitle/>
       <About/>
       <section id = "about"/>
       <Activities/>

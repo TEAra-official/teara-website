@@ -1,11 +1,13 @@
-import { Container } from 'react-bootstrap'
+import { BrowserRouter, Route, Link } from 'react-router-dom'
+import AboutDetail from '../about.js' 
 
 export default function About() {
-    return (
-        <body>
-            <h1>
-                About
-            </h1>
-        </body>
-    )
-}  
+  return (
+      <BrowserRouter>
+        <div>
+            <Link to='../about'>About</Link>
+            <Route path='../about' component={AboutDetail} />
+        </div>
+      </BrowserRouter>
+  );
+}
