@@ -49,3 +49,28 @@
   margin-right: 0.3em;
   color: aliceblue;
 }
+
+/* activity */
+.sub{
+  color: rgb(105,59,7);
+  text-align:center;
+  padding:20px 0;
+}
+
+.activity-background{
+  background-color: rgb(252,252,233);
+}
+
+.activity-column-image {
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  background-image: url(../public/teara_leaf.png);
+  background-repeat: no-repeat;
+  background-position: 0 40%;
+  background-size: cover;
+}
+
+.list-group-item {
+  background-color: rgb(252,252,233);
+}
