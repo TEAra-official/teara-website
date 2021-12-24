@@ -11,7 +11,8 @@ import MainTitle from './components/main-title'
 
 export default function Home() {
   return (
-    <Container className="md-container">
+    <div>
+
       <Head>
         <title>TEAra|お茶大開発コミュニティ</title>
         <link rel="icon" href="/teara_white_trans.png" />
@@ -29,6 +30,6 @@ export default function Home() {
       
 
       <TearaFooter />
-    </Container>
+    </div>
   )
 }
