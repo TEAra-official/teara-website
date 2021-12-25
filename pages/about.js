@@ -5,7 +5,7 @@ export default function AboutDetail() {
   return (
     <div>
       <Head/>
-      <div>About us</div>
+      <div>詳しく説明する</div>
       <TearaFooter/>
     </div>
   )
