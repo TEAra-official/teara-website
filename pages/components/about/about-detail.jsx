@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import TearaFooter from './footer'
+import TearaFooter from '../../footer'
 
 export default function AboutDetail() {
   return (
