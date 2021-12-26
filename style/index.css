@@ -1,11 +1,6 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-.md-container {
-  max-width: 800px;
-  padding-top: 2rem;
-}
-
 /* main title */
 .main-title {
   color: rgb(105,59,7);
@@ -32,7 +27,6 @@
   text-align: center;
 }
 
-
 /* footer */
 .footer-background {
   height: 80px;
@@ -54,10 +48,11 @@
 }
 
 .twitter-and-github-logo {
-  width: 3%;
+  margin: 5px;
 }
 
 .copyright {
+  margin: 5px;
   font-size: 1em;
   color: whitesmoke;
 }

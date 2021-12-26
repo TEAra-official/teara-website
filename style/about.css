@@ -1,0 +1,8 @@
+/* ensure all pages have Bootstrap CSS */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.about {
+    margin: 100px;
+    align-items: center;
+    align-content: center;
+}
