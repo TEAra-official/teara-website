@@ -1,21 +1,38 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
-.md-container {
-  max-width: 800px;
-  padding-top: 2rem;
+/* main title */
+.main-title {
+  color: rgb(105,59,7);
+  height: 200px;
+  width: 100%;
+  text-align: center; 
+  padding: 50px 0;
+  background-image: url(../public/images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: cover;
 }
 
-.sml-card {
-  width: 22rem;
-  margin: 1rem 0;
+/* about */
+.about-item {
+  color: rgb(105,59,7);
+  text-align: center;
+  background-color: whitesmoke;
 }
 
+.title {
+  font-size: 5em;
+  color: rgb(105,59,7);
+  text-align: center;
+}
+
+/* footer */
 .footer-background {
   height: 80px;
   width: 100%;
   margin-top: 20px;
-  background-image: url(../public/background.jpg);
+  background-image: url(../public/images/background.jpg);
   background-repeat: no-repeat;
   background-position: 0 40%;
   background-size: cover;
@@ -28,24 +45,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-.twitter-logo {
-  height: 1.8em;
-  margin-left: 0.25em;
-  margin-right: 0.25em;
-}
-
-.github-logo {
-  height: 2em;
-  margin-left: 0.25em;
-  margin-right: 0.25em;
+.twitter-and-github-logo {
+  margin: 5px;
 }
 
 .copyright {
+  margin: 5px;
   font-size: 1em;
-  margin-left: 0.3em;
-  margin-right: 0.3em;
-  color: aliceblue;
+  color: whitesmoke;
 }
