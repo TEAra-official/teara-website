@@ -1,41 +1,24 @@
-import leaf from '../../public/teara_leaf.png'
-import React, { useState } from "react";
+import leaf from '../../public/images/teara_leaf.png'
+import Image from 'next/image'
 
 const style = {
-    width: 30,
+    width: 60,
     height: 30,
     backgroundImage: 'url(${leaf})'
   };
 
 function Activities_column({date, subject, summery}){
-    console.log("hey", leaf)
-    const img1= require('../../public/teara_leaf.png');
-    const images= [img1];
-    const [currentImage, setCurrentImage]= useState();
-    React.useEffect(() => {
-        setCurrentImage(img1);
-        console.log(currentImage)
-    }, []);
-  return(
-    
-    <li class="list-group-item" >
-        {/* <div className="activity-background"> */}
-        {/* 画像 */}
-        {/* <div className="activity-column-image">
-        </div> */}
-        {/* <img src={`${process.env.PUBLIC_URL}/teara_leaf.png`}/>
-          <img src = {leaf}/> */}
-          <img style={style}/>
-          <img src={images[currentImage]} />
-          <img src={leaf} />
-          <div style={style}></div>
-         
-          
-          {date} {subject} <br></br>
-          {summery} 
-        {/* </div> */}
-      </li>
    
+  return( 
+    <li class="list-group-item" >
+          <div class="contents">
+            <Image src={leaf} width={30} height={30} />
+          </div>
+          <div class="contents">
+            {date} {subject} <br></br>
+            {summery} 
+          </div>
+      </li>
   )
 }
 
