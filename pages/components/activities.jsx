@@ -8,7 +8,6 @@ const style = {
   };
 
 function Activities_column({date, subject, summery}){
-   
   return( 
     <li class="list-group-item" >
           <div class="contents">
@@ -22,7 +21,7 @@ function Activities_column({date, subject, summery}){
   )
 }
 
-export default function activities() {
+export default function Activities() {
     return (
         <div className="activity-background">
             <ul class="list-group list-group-flush">
@@ -38,4 +37,4 @@ export default function activities() {
             </ul>
         </div>
     )
-  }
+}
