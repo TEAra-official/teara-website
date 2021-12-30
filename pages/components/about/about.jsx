@@ -1,13 +1,19 @@
-import Link from 'next/link'
+import MainButton from '/pages/components/button';
 
 export default function About() {
   return (
-      <div>
-          <button>
-            <Link href="/components/about/about-detail">
-                <a>詳しく見る</a>
-            </Link>
-          </button>
+      <div className="about">
+        <h1>About</h1>
+        <div className="about-content">
+          <p>あああああああああああああ
+            <br/>
+            あああああああああああああああああああああ
+          </p>
+        </div>
+          <MainButton
+            href="/components/about/about-detail"
+            content="詳しく見る"
+          />
       </div>
   )
 }

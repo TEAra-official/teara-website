@@ -18,7 +18,7 @@ export default function Home() {
       <TearaNavbar/>
       <MainTitle/>
       <About/>
-      <section id = "about"/>
+      <section id = "about-content"/>
       <Activities/>
       <section id = "activities"/>
       <Members/>
