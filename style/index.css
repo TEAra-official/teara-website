@@ -4,10 +4,10 @@
 /* main title */
 .main-title {
   color: rgb(105,59,7);
-  height: 200px;
+  height: 300px;
   width: 100%;
   text-align: center; 
-  padding: 50px 0;
+  padding: 100px 0;
   background-image: url(../public/images/background.jpg);
   background-repeat: no-repeat;
   background-position: 0 50%;
