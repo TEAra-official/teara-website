@@ -2,48 +2,48 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 .page-title {
-    color: rgb(105,59,7);
-    height: 150px;
-    width: 100%;
-    text-align: center;   
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../public/images/background.jpg);
-    background-repeat: no-repeat;
-    background-position: 0 50%;
-    background-size: cover;
-    font-family: "Times New Roman";
+  color: rgb(105,59,7);
+  height: 150px;
+  width: 100%;
+  text-align: center;   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../public/images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 50%;
+  background-size: cover;
+  font-family: "Times New Roman";
 }
 
 .about-title {
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-    color: rgb(105,59,7);
-    text-align: center; 
-    font-family: "Times New Roman";
-    background-color: white;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: rgb(105,59,7);
+  text-align: center; 
+  font-family: "Times New Roman";
+  background-color: white;
 }
 
 .about-content {
-    padding: 0;
-    margin: 0 20%;
-    color: rgb(105,59,7);
-    text-align: center; 
-    background-color: white;
-    font-family: "游ゴシック";
+  padding: 0;
+  margin: 0 20%;
+  color: rgb(105,59,7);
+  text-align: center; 
+  background-color: white;
+  font-family: "游ゴシック";
 }
 
 .toggle {
-    padding: 0.1em;
-    margin: 1em;
-    color: white;
-    background: #38B549;
-    box-sizing: border-box;    
-    display: inline-block;
-    text-align: center;
-    font-family: "Mplus 1p";
-    font-size: 16px;
-    min-width: 100px;
-    min-height: 25px;
+  padding: 0.1em;
+  margin: 1em;
+  color: white;
+  background: #38B549;
+  box-sizing: border-box;    
+  display: inline-block;
+  text-align: center;
+  font-family: "Mplus 1p";
+  font-size: 16px;
+  min-width: 100px;
+  min-height: 25px;
 }
