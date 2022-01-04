@@ -6,29 +6,26 @@ export default function About() {
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse()
 
   return (
-    <>
+    <div className="about-content">
       <h2 id="about" className="about-title">ABOUT</h2>
-      <div className="about-content">
-        <p>
-          TEAraはお茶の水女子大学の開発コミュニティです。
+      <p>
+        TEAraはお茶の水女子大学の開発コミュニティです。
+        <br />
+        あああああああああああああああああああああああああああああああ
+        <p {...getCollapseProps()}>
+          あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
           <br />
-          あああああああああああああああああああああああああああああああ
-          <p {...getCollapseProps()}>
-            あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
-            <br />
-            ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
-            <br />
-          </p>
+          ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ
+          <br />
         </p>
-        <Nav.Link>
-          <Scroll to="about" smooth={true} duration={600} offset={-100}>
-            <div className="toggle" {...getToggleProps()}>
-              {isExpanded ? '戻す' : '詳しく見る'}
-            </div>
-          </Scroll>
-        </Nav.Link>
-
-      </div>
-    </>
+      </p>
+      <Nav.Link>
+        <Scroll to="about" smooth={true} duration={600} offset={-100}>
+          <div className="toggle" {...getToggleProps()}>
+            {isExpanded ? '戻す' : '詳しく見る'}
+          </div>
+        </Scroll>
+      </Nav.Link>
+    </div>
   )
 }
