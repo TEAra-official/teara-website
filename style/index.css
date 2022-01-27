@@ -1,6 +1,12 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
 /* main title */
 .main-title {
   color: rgb(105,59,7);

@@ -5,12 +5,13 @@ import {Link as Scroll} from "react-scroll"
 import About from './components/about/about.jsx'
 import Activities from './components/activities'
 import Contact from './components/contact'
-import Members from './components/members'
+import Members from './components/members/members'
 import MainTitle from './components/main-title'
 
 export default function Home() {
   return (
     <div>
+      <div class="wrapper">
       <Head>
         <title>TEAra|お茶大開発コミュニティ</title>
         <link rel="icon" href="/images/teara-white-trans.png" />
@@ -26,6 +27,7 @@ export default function Home() {
       <Contact/>
       <section id = "contact"/>
       <TearaFooter />
+      </div>
     </div>
   )
 }
