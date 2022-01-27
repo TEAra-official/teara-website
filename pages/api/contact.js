@@ -6,19 +6,19 @@ export default function sendmail(req, res) {
   // 送信用アカウントの設定（ここではGmail）
   const transporter = nodemailer.createTransport({
     port: 465,
-    host: "smtp.gmail.com",
+    host: "kumomaya.gmail.com",
     auth: {
-      user: "sender@gmail.com",
+      user: "kumomaya@gmail.com",
       // Googleアカウントでアプリパスワードを取得して入れる
-      pass: 'google_application_password',
+      pass: 'notqu9-budqur-xopPyb',
     },
     secure: true,
   });
 
   // 管理人に送るお問い合わせメッセージ通知メール
   const toHostMailData = {
-    from: 'sender@mail.com',
-    to: "host@mail.com",
+    from: 'kumomaya@mail.com',
+    to: "kumomaya@gmail.com",
     subject: `【お問い合わせ】${req.body.name}様より`,
     text: req.body.message + " | Sent from: " + req.body.email,
     html: `
@@ -33,7 +33,7 @@ export default function sendmail(req, res) {
 
   // ゲストに送る自動受付メール
   const toGuestMailData = {
-    from: 'sender@mail.com',
+    from: 'kumomaya@gmail.com',
     // 入力されたゲストのメールアドレスが入る
     to: `${req.body.email}`,
     subject: `【お問い合わせ自動受付メール】`,

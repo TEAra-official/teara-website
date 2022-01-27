@@ -1,9 +1,10 @@
 import { useState } from "react";
-import type { GetServerSideProps } from 'next';
+// import type { GetServerSideProps } from 'next';
 import Link from 'next/link';
 import useSWR from 'swr';
 import * as React from 'react';
-import { fetchPosts } from '../../_lib/posts';
+// import { fetchPosts } from '../../_lib/posts';
+import contact from "../api/contact";
 
 
 export default function Home() {
@@ -39,10 +40,14 @@ export default function Home() {
     //   }
     // });
 
-    async function fetcher(url: "../api/contact"): Promise<boolean | null> {
+    async function fetcher(url) {
       const response = await fetch(url);
       return response.json();
     }
+    // async function fetcher(url): Promise<boolean | null> {
+    //   const response = await fetch(url);
+    //   return response.json();
+    // }
     const { data: isLoggedIn } = useSWR('/api/user', fetcher);
 
   };
