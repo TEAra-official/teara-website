@@ -2,7 +2,8 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 .members-content {
-    flex-grow: 1;
+    text-align: center; 
+    margin-bottom: 1em; 
 }
 
 .page-title {
@@ -20,11 +21,94 @@
     font-family: "Times New Roman";
 }
 
-.trim-image-to-circle {
-    background-color: #F5C3C3;
+.members-text {
+    color: rgb(105,59,7);
+    height: 50px;
+    width: 100%;
+    text-align: center;  
+    font-family: "游ゴシック";
+}
+
+.members {
+    display: inline-block;
+    padding: 1em 6%;
+}
+
+.members-icon {
+    margin: 1em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.member-content {
+    color: rgb(105,59,7);
+    margin: 1em;
+    padding-right: 1.5em;
+    padding-left: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    background-color: #FCFCE9;
+    font-family: "游ゴシック";
+    font-size: 20px;
+    position: relative;
+}
+
+.member-detail {
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 2.5em;
+    width: 70%;
+}
+
+.circle {
+    vertical-align: top;
+    display: inline-block;
     width:  180px;       /* ※縦横を同値に */
     height: 180px;       /* ※縦横を同値に */
     border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
     background-position: center center;  /* 横長画像の左上を基準に表示 */
-    display: inline-block;          /* 複数の画像を横に並べたい場合 */
+}
+
+.member-name {
+    font-size: 30px;
+    border-bottom: 3px dotted rgb(105,59,7);
+    font-family: "游ゴシック";
+    margin-bottom: 1em;
+}
+
+.member-button {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.tag1 {
+    position: absolute;
+    top: -25px;
+    left: 95px;
+    color: white;
+    background: #38B549;
+    box-sizing: border-box;    
+    text-align: center;
+    vertical-align: center; 
+    font-family: "游ゴシック";
+    font-size: 18px;
+    width: 60px;
+    height: 28px;
+}
+
+.tag2 {
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    color: white;
+    background: #38B549;
+    box-sizing: border-box; 
+    text-align: center;
+    vertical-align: center; 
+    font-family: "游ゴシック";
+    font-size: 18px;
+    width: 60px;
+    height: 28px;
 }
