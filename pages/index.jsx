@@ -15,7 +15,7 @@ export default function Home() {
         <title>TEAra|お茶大開発コミュニティ</title>
         <link rel="icon" href="/images/teara-white-trans.png" />
       </Head>
-      <div  class="header">
+      <div class="header">
         <TearaNavbar/>
       </div>
       <MainTitle/>
