@@ -15,12 +15,14 @@ export default function Home() {
         <title>TEAra|お茶大開発コミュニティ</title>
         <link rel="icon" href="/images/teara-white-trans.png" />
       </Head>
-      <TearaNavbar/>
+      <div  class="header">
+        <TearaNavbar/>
+      </div>
       <MainTitle/>
       <About/>
       <section id = "about-content"/>
-      <Activities/>
       <section id = "activities"/>
+      <Activities/>
       <Members/>
       <section id = "members"/>
       <Contact/>
