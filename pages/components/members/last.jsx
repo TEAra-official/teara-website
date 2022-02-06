@@ -1,16 +1,14 @@
 import TearaFooter from '../../footer'
-import RightButton from './right-button'
-import LeftButton from './left-button'
+import { LeftButton } from './button'
 import PageTitle from '../page-title'
 import Image from 'next/image'
-import Link from 'next/link'
 
-export default function Konami() {
+export default function Last() {
   return(
     <div>
       <PageTitle title="MEMBER"/>
       <div className="member-content">
-        <Image className="circle" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAADICAMAAAA9W+hXAAAAA1BMVEX1w8P2z5tmAAAANElEQVR4nO3BMQEAAADCoPVP7WsIoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAN1+AABVhDU2QAAAABJRU5ErkJggg=="
+        <Image className="circle" src="/images/members-icon/icon-basecolor.png"
           width={180} height={180} />
           <div className="member-detail">
             <p className="member-name">last</p>

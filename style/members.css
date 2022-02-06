@@ -23,7 +23,7 @@
 
 .members-text {
     color: rgb(105,59,7);
-    height: 50px;
+    height: 35px;
     width: 100%;
     text-align: center;  
     font-family: "游ゴシック";
@@ -31,12 +31,16 @@
 
 .members {
     display: inline-block;
-    padding: 1em 6%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .members-icon {
+    display: inline-block;
     margin: 1em;
-    margin-bottom: 1em;
+    padding-bottom: 5em;
+    width: 150px;
+    height: 150px;
     position: relative;
 }
 
@@ -85,8 +89,8 @@
 
 .tag1 {
     position: absolute;
-    top: -25px;
-    left: 95px;
+    top: 110px;
+    left: 100px;
     color: white;
     background: #38B549;
     box-sizing: border-box;    
