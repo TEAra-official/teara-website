@@ -26,3 +26,4 @@ export default function TearaNavbar() {
         </Navbar>
     )
   }
+  
