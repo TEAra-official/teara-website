@@ -99,6 +99,21 @@
   z-index: 30;
   box-shadow: 10px 10px 10px rgba(0,0,0.6,0.3);
   color: rgb(105,59,7);
+  padding-left: 0;
 }
 
-  
+.header-image{
+  padding-left: 3vw;
+}
+
+.header-text{
+  right: auto;
+  display: flex;
+  margin-right: 3vw;
+  padding-right: 0;
+  /* padding-left: 70vw; */
+  margin: 0 0 0 auto;
+}a{
+  margin:0.5vw;
+}
+
