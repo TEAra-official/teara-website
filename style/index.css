@@ -108,6 +108,24 @@
   padding-left: 0;
 }
 
+.contact-title {
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: rgb(105,59,7);
+  text-align: center; 
+  font-family: "Times New Roman";
+  background-color: white;
+}
+
+.contact-content {
+  padding: 0;
+  margin: 0 20%;
+  color: rgb(105,59,7);
+  text-align: center; 
+  background-color: white;
+  font-family: "游ゴシック";
+}
+
 .header-image{
   padding-left: 3vw;
 }

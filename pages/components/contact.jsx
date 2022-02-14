@@ -1,11 +1,19 @@
-import { Container } from 'react-bootstrap'
+import useCollapse from 'react-collapsed'
+import { Nav } from 'react-bootstrap'
+import { Link as Scroll } from "react-scroll"
 
-export default function Contact() {
-    return (
-        <body>
-            <h1>
-                Contact
-            </h1>
-        </body>
-    )
-}  
+export default function Conatct() {
+
+  return (
+    <div className="contact-content">
+      <h2 id="contact" className="contact-title">CONTACT</h2>
+      <p>
+      お問い合わせにつきましては、TEAraのTwitter(
+        <a href="https://twitter.com/teara_ocha">
+        @teara_ocha
+        </a>
+        )DMまたは、teara.offical[atmark]gmail.comまで連絡お願いします。
+      </p>
+    </div>
+  )
+}
