@@ -5,12 +5,12 @@ export default function TearaFooter(){
   <footer className="footer-background">
     <div className="filter">
       <div className="twitter-and-github-logo">
-        <a  href="https://twitter.com/teara_ocha" target="_blank">  
+        <a href="https://twitter.com/teara_ocha" target="_blank" rel="noreferrer">  
           <Image src="/images/Twitter-logo-white.png" width={30} height={30} objectFit="contain" alt="Twitterロゴ" />
         </a>
       </div>
       <div className="twitter-and-github-logo">
-        <a  href="https://github.com/TEAra-official" target="_blank">  
+        <a href="https://github.com/TEAra-official" target="_blank" rel="noreferrer">  
           <Image src="/images/Github-logo-white.png" width={30} height={30} objectFit="contain" alt="Githubロゴ" />
         </a>
       </div>

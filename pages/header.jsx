@@ -1,11 +1,12 @@
-import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap'
+import Image from 'next/image'
+import { Navbar, Nav } from 'react-bootstrap'
 import {Link as Scroll} from "react-scroll"
 
 export default function TearaNavbar() {
     return (
       <Navbar bg="light" expand="lg">
             <div className="header-image">
-              <img src="../../images/teara-white-trans.png" alt="logo" width="40" height="40"></img>
+              <Image src="/images/teara-white-trans.png" alt="logo" width="40" height="40" />
             </div>
             {/* スクロールボタン */}
             <div className="header-text">

@@ -1,7 +1,3 @@
-import useCollapse from 'react-collapsed'
-import { Nav } from 'react-bootstrap'
-import { Link as Scroll } from "react-scroll"
-
 export default function Conatct() {
 
   return (

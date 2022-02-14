@@ -9,11 +9,11 @@ const style = {
 
 function Activities_column({date, subject, summery}){
   return( 
-    <li class="list-group-item" >
-          <div class="contents">
-            <Image src={leaf} width={30} height={30} />
+    <li className="list-group-item" >
+          <div className="contents">
+            <Image src={leaf} width={30} height={30} alt=""/>
           </div>
-          <div class="contents">
+          <div className="contents">
             {date} {subject} <br></br>
             {summery} 
           </div>
@@ -24,7 +24,7 @@ function Activities_column({date, subject, summery}){
 export default function Activities() {
     return (
         <div className="activity-background">
-            <ul class="list-group list-group-flush">
+            <ul className="list-group list-group-flush">
                 <div className="sub">
                     <h1>Activities</h1>
                 </div>
