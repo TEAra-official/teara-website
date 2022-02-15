@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import TearaNavbar from './header'
 import TearaFooter from './footer'
-import {Link as Scroll} from "react-scroll"
 import About from './components/about/about.jsx'
 import Activities from './components/activities'
 import Contact from './components/contact'
@@ -11,12 +10,12 @@ import MainTitle from './components/main-title'
 export default function Home() {
   return (
     <div>
-      <div class="wrapper">
+      <div className="wrapper">
       <Head>
         <title>TEAra|お茶大開発コミュニティ</title>
         <link rel="icon" href="/images/teara-white-trans.png" />
       </Head>
-      <div class="header">
+      <div className="header">
         <TearaNavbar/>
       </div>
       <MainTitle/>

@@ -24,3 +24,9 @@ export function LeftButton(props) {
     </div>
   )
 }
+
+export default function _(props) {
+  return (
+    <div></div>
+  )
+}

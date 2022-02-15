@@ -9,7 +9,7 @@ export default function Leader() {
       <PageTitle title="MEMBER" />
       <div className="member-content">
         <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-          width={180} height={180} />
+          width={180} height={180} alt=""/>
         <p className="tag2">代表</p>
         <div className="member-detail">
           <p className="member-name">leader</p>
