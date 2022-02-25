@@ -30,9 +30,9 @@ export default function Members() {
               width={150} height={150} alt=""/>
           </a>
         </Link>
-        <Link href='./components/members/konami2'>
+        <Link href='./components/members/hyaku'>
           <a className="members-icon">
-            <Image className="circle" src="/images/members-icon/icon-basecolor.png"
+            <Image className="circle" src="/images/members-icon/hyaku.png"
               width={150} height={150} alt=""/>
           </a>
         </Link>

@@ -16,7 +16,7 @@ export default function Konami2() {
         </div>
       </div>
       <div className="member-button">
-        <LeftButton href="/components/members/konami" />
+        <LeftButton href="/components/members/hyaku" />
         <RightButton
           href="/components/members/last" />
       </div>
