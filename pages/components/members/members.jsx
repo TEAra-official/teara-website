@@ -10,9 +10,9 @@ export default function Members() {
       <h2 id="members" className="about-title">MEMBERS</h2>
       <p className="members-text"> 大学1年生から修士2年までの約40名で活動しています</p>
       <div className="members">
-        <Link href='./components/members/leader'>
+        <Link href='./components/members/tori'>
           <a className="members-icon">
-            <Image className="circle" src="/images/members-icon/icon-basecolor.png"
+            <Image className="circle" src="/images/members-icon/tori.jpg"
               width={150} height={150} alt=""/>
             <p className="tag1">代表</p>
           </a>
