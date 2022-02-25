@@ -23,9 +23,11 @@ function Activities_column({date, subject, summery}){
 
 export default function Activities() {
     return (
-        <div className="activity-background">
+      <div className="activity-background">
             <ul className="list-group list-group-flush">
-                <div className="sub">
+                <div className="title">
+                {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@450" /> */}
+                <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,500;0,700;1,600&display=swap" rel="stylesheet"/>
                     <h1>Activities</h1>
                 </div>
                 <Activities_column date = "2021/6/25" subject = "TEAra立ち上げ" summery = "活動を開始しました"/>

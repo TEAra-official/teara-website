@@ -144,3 +144,14 @@ a{
   margin-left:4vw;
 }
 
+.plain-text{
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+.title{
+  font-family: 'Roboto Serif', sans-serif;
+  color: rgb(105,59,7);
+  text-align:center;
+  padding:20px 0;
+}
+
