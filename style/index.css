@@ -155,3 +155,9 @@ a{
   padding:20px 0;
 }
 
+.plain-text-japanese{
+  font-family: 'Roboto Serif', sans-serif;
+  font-family: 'Kiwi Maru', serif;
+  color: rgb(105,59,7);
+}
+
