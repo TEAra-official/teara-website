@@ -1,5 +1,6 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
 .wrapper{
   display: flex;
@@ -120,6 +121,7 @@
 .contact-content {
   padding: 0;
   margin: 0 20%;
+  margin-left: 0;
   color: rgb(105,59,7);
   text-align: center; 
   background-color: white;
@@ -141,6 +143,13 @@
 
 a{
   margin-right:1vw;
-  margin-left:4vw;
+  margin-left:1vw;
 }
 
+.title{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.plain-text{
+  font-family: 'Roboto Mono', monospace;
+}
