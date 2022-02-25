@@ -13,7 +13,6 @@ export default function Konami2() {
         <div className="member-detail">
           <p className="member-name">si-tm</p>
           <p>色々やりたいB4</p>
-          {/* <a href="https://github.com/si-tm">github</a> */}
         </div>
       </div>
       <div className="member-button">
