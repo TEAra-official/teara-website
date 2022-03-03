@@ -14,7 +14,9 @@ function Activities_column({date, subject, summery}){
             <Image src={leaf} width={30} height={30} alt=""/>
           </div>
           <div className="contents">
-            {date} {subject} <br></br>
+            {date}    
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            {subject} <br></br>
             {summery} 
           </div>
       </li>
