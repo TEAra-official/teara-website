@@ -1,5 +1,5 @@
 import TearaFooter from '../../footer'
-import { LeftButton, RightButton } from './button'
+import { LeftButton, RightButton, Button } from './button'
 import PageTitle from '../page-title'
 import Image from 'next/image'
 
@@ -18,6 +18,7 @@ export default function Konami() {
       </div>
       <div className="member-button">
         <LeftButton href="/components/members/tori" />
+        <Button href="/" />
         <RightButton
           href="/components/members/hyaku"
         />
