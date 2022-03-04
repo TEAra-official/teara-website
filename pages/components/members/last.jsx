@@ -20,7 +20,6 @@ export default function Last() {
           href="/components/members/konami2"
         />
         <Button href="/" />
-        <div />
       </div>
       <TearaFooter />
     </div>

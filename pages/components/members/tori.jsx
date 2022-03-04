@@ -17,7 +17,6 @@ export default function Tori() {
         </div>
       </div>
       <div className="member-button">
-        <div />
         <Button href="/" />
         <RightButton
           href="/components/members/konami"
