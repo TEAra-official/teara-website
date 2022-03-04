@@ -9,7 +9,7 @@ export default function Konami() {
       <PageTitle title="MEMBER" />
       <div className="member-content">
         <Image className="circle" src="/images/members-icon/konami.jpg"
-          width={180} height={180} alt=""/>
+          width={180} height={180} alt="" />
         <div className="member-detail">
           <p className="member-name">konamilk</p>
           <p>#競プロ #CTF</p>
