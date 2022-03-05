@@ -12,8 +12,7 @@ export default function Konami() {
           width={180} height={180} alt="" />
         <div className="member-detail">
           <p className="member-name">konamilk</p>
-          <p>#競プロ #CTF</p>
-          <p>情報系でつよつよになりたい新B2</p>
+          <p>競技プログラミングをまったり頑張っています。</p>
         </div>
       </div>
       <div className="member-button">
