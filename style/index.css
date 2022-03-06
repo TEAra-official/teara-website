@@ -128,24 +128,6 @@
   font-family: "游ゴシック";
 }
 
-.header-image{
-  padding-left: 3vw;
-}
-
-.header-text{
-  right: auto;
-  display: flex;
-  margin-right: 3vw;
-  padding-right: 0;
-  /* padding-left: 70vw; */
-  margin: 0 0 0 auto;
-}
-
-a{
-  margin-right:1vw;
-  margin-left:1vw;
-}
-
 .title{
   font-family: 'Roboto Mono', monospace;
 }
