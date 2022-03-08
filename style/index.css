@@ -1,5 +1,6 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
 .wrapper{
   display: flex;
@@ -114,33 +115,23 @@
   color: rgb(105,59,7);
   text-align: center; 
   font-family: "Times New Roman";
-  background-color: white;
+  background-color: rgb(252,252,233);
 }
 
 .contact-content {
   padding: 0;
-  margin: 0 20%;
+  margin: 0;
+  margin-bottom: 0;
   color: rgb(105,59,7);
   text-align: center; 
-  background-color: white;
+  background-color: rgb(252,252,233);
   font-family: "游ゴシック";
 }
 
-.header-image{
-  padding-left: 3vw;
+.title{
+  font-family: 'Roboto Mono', monospace;
 }
 
-.header-text{
-  right: auto;
-  display: flex;
-  margin-right: 3vw;
-  padding-right: 0;
-  /* padding-left: 70vw; */
-  margin: 0 0 0 auto;
+.plain-text{
+  font-family: 'Roboto Mono', monospace;
 }
-
-a{
-  margin-right:1vw;
-  margin-left:4vw;
-}
-
