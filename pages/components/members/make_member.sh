@@ -1,9 +1,12 @@
 #!/bin/bash
+
+#これから作る個人ページの左ボタン用に、member_list.txtからひとつ前のファイル名を取得
 array=()
 lastname=`tail -n 1 members_list.txt`
 array+=($lastname)
 leftName=${array[0]}
 
+#これから作る個人ページの情報を受け取る
 echo -n "ローマ字で名前を入力してください（ファイル名になる名前）:"
 read RomaName
 echo -n "名前を入力してください（表示される名前）:"
@@ -15,6 +18,7 @@ read Daihyo
 echo -n "アイコンの画像のファイル名を教えてください:"
 read Icon
 
+#個人ページを作る
 if [ "$Daihyo" = "y" ]; then
 cat <<MAIN > ${RomaName}.jsx
 import TearaFooter from '../../footer'
@@ -78,15 +82,18 @@ fi
 
 echo "${RomaName}.jsxが作られました"
 
+# ひとつ前のファイルの右ボタンを作る。もともと何もなかった位置（<div />）をリンクの入った右ボタンに置換
 sed -i -e "s!<div />!<RightButton href=\"/components/members/${RomaName}\" />!" ./${leftName}.jsx
 echo "${leftName}.jsxのRightButtonのリンクを変更しました"
 
+# members_list.txtを更新
 if [ "$Daihyo" = "y" ]; then
   echo "${RomaName} ${Icon} 1" >> members_list.txt
 else
   echo "${RomaName} ${Icon} 0" >> members_list.txt
 fi
 
+# メンバーの一覧を更新。
 cat <<FRONT > members.jsx
 import useCollapse from 'react-collapsed'
 import Image from 'next/image'
@@ -103,6 +110,9 @@ export default function Members() {
         <div className="members">
 FRONT
 
+# members_list.txtから情報を受け取る
+# 6個目までは一行目で、残りは「一覧を見る」ボタンを押すと出てくる
+# 毎回代表かどうかで場合分けしている（くどいやり方かも）
 count=0
 while IFS=" " read roma_name icon lea
 do
