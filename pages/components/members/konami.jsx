@@ -18,7 +18,7 @@ export default function Konami() {
       <div className="member-button">
         <LeftButton href="/components/members/hyaku" />
         <Button href="/" />
-        <RightButton href="/components/members/happy" />
+        <RightButton href="/components/members/koiocha" />
       </div>
       <TearaFooter />
     </div>

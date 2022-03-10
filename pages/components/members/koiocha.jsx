@@ -16,7 +16,7 @@ export default function koiocha() {
         </div>
       </div>
       <div className="member-button">
-        <LeftButton href="/components/members/shiyu" />
+        <LeftButton href="/components/members/konami" />
         <Button href="/" />
         <RightButton href="/components/members/usuiocha" />
       </div>

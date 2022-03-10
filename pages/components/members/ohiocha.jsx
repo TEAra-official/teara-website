@@ -3,22 +3,23 @@ import { LeftButton, RightButton, Button } from './button'
 import PageTitle from '../page-title'
 import Image from 'next/image'
 
-export default function shiyu() {
+export default function ohiocha() {
   return (
     <div>
       <PageTitle title="MEMBER" />
       <div className="member-content">
         <Image className="circle" src="/images/members-icon/basecolor.png"
-          width={180} height={180} alt="shiyuのアイコン" />
+          width={180} height={180} alt="ohiochaのアイコン" />
+        <p className="tag2">代表</p>
         <div className="member-detail">
-          <p className="member-name">しゆ</p>
-          <p>しゆです</p>
+          <p className="member-name">おーいお茶</p>
+          <p>いろんな人に呼ばれます</p>
         </div>
       </div>
       <div className="member-button">
-        <LeftButton href="/components/members/happy" />
+        <LeftButton href="/components/members/macha" />
         <Button href="/" />
-        <RightButton href="/components/members/koiocha" />
+        <div />
       </div>
       <TearaFooter />
     </div>

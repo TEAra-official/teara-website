@@ -1,7 +1,7 @@
 tori tori.jpg 1
 hyaku basecolor.png 0
 konami konami.jpg 0
-happy basecolor.png 0
-shiyu basecolor.png 0
 koiocha basecolor.png 0
 usuiocha basecolor.png 0
+macha basecolor.png 0
+ohiocha basecolor.png 1

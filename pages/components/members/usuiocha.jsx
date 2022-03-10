@@ -12,13 +12,13 @@ export default function usuiocha() {
           width={180} height={180} alt="usuiochaのアイコン" />
         <div className="member-detail">
           <p className="member-name">薄いお茶</p>
-          <p>薄いお茶と言います</p>
+          <p>薄いお茶と言います。</p>
         </div>
       </div>
       <div className="member-button">
         <LeftButton href="/components/members/koiocha" />
         <Button href="/" />
-        <div />
+        <RightButton href="/components/members/macha" />
       </div>
       <TearaFooter />
     </div>
