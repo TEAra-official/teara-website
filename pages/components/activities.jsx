@@ -25,13 +25,13 @@ export default function Activities() {
     return (
       <div className="activity-background">
             <ul className="list-group list-group-flush">
+            <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet"/>
                 <div className="title">
-                {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@450" /> */}
-                <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,500;0,700;1,600&display=swap" rel="stylesheet"/>
                     <h1>Activities</h1>
                 </div>
                 <div className="plain-text-japanese">
-                   <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Roboto+Serif:ital,wght@0,500;0,700;1,600&display=swap" rel="stylesheet"/>
+                  {/* ここ */}
+                  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=M+PLUS+Rounded+1c&family=Reggae+One&family=Roboto+Serif:ital,wght@0,500;0,700;1,600&display=swap" rel="stylesheet"></link>
                   <Activities_column date = "2021/6/25" subject = "TEAra立ち上げ" summery = "活動を開始しました"/>
                   <Activities_column date = "2021/7/15" subject = "自分のwebサイトをつくってみよう" summery = "webサイトの概要を学んだあとHTMLをいじったり、firebaseを使ってwebサイトをホスティングしたりしました。"/>
                   <Activities_column date = "2021/8/6" subject = "gitゆるゆる勉強会" summery = "gitをあまり使ったことない人対象にgitについてのワークショップを行いました。"/>

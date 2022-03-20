@@ -145,18 +145,26 @@ a{
 }
 
 .plain-text{
-  font-family: 'Roboto Serif', sans-serif;
 }
 
 .title{
-  font-family: 'Roboto Serif', sans-serif;
+  /* font-family: 'Roboto Serif', sans-serif; */
+  /* 1 */
+  /* font-family: "Times New Roman"; */
+  /* 2 */
+  /* font-family: 'Lora', serif; */
+  font-family: 'Cormorant Garamond', serif;
   color: rgb(105,59,7);
   text-align:center;
   padding:20px 0;
 }
 
 .plain-text-japanese{
-  font-family: 'Roboto Serif', sans-serif;
+  /* 1. M PLUS Rounded 1c */
+  /* font-family: 'M PLUS Rounded 1c', sans-serif;  */
+  /* 2. Shippori Mincho B1*/
+  /* font-family: 'Shippori Mincho B1', serif; */
+  /*3. Kiwi Maru*/
   font-family: 'Kiwi Maru', serif;
   color: rgb(105,59,7);
 }
