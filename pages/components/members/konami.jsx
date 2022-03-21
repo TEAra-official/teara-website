@@ -1,5 +1,5 @@
 import TearaFooter from '../../footer'
-import { LeftButton, RightButton } from './button'
+import { LeftButton, RightButton, Button } from './button'
 import PageTitle from '../page-title'
 import Image from 'next/image'
 
@@ -9,17 +9,17 @@ export default function Konami() {
       <PageTitle title="MEMBER" />
       <div className="member-content">
         <Image className="circle" src="/images/members-icon/konami.jpg"
-          width={180} height={180} alt=""/>
+          width={180} height={180} alt="" />
         <div className="member-detail">
           <p className="member-name">konamilk</p>
-          <p>#競プロ #CTF</p>
-          <p>情報系でつよつよになりたい新B2</p>
+          <p>競技プログラミングをまったり頑張っています。</p>
         </div>
       </div>
       <div className="member-button">
-        <LeftButton href="/components/members/leader" />
+        <LeftButton href="/components/members/tori" />
+        <Button href="/" />
         <RightButton
-          href="/components/members/konami2"
+          href="/components/members/hyaku"
         />
       </div>
       <TearaFooter />

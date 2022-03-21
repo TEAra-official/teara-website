@@ -55,6 +55,7 @@
     font-family: "游ゴシック";
     font-size: 20px;
     position: relative;
+    display: block;
 }
 
 .member-detail {

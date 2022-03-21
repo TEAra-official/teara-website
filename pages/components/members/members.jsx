@@ -12,42 +12,42 @@ export default function Members() {
         <p> 大学1年生から修士2年までの約40名で活動しています</p>
       </div>
       <div className="members">
-        <Link href='./components/members/leader'>
+        <Link href='./components/members/tori'>
           <a className="members-icon">
-            <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-              width={150} height={150} alt=""/>
+            <Image className="circle" src="/images/members-icon/tori.jpg"
+              width={150} height={150} alt="" />
             <p className="tag1">代表</p>
           </a>
         </Link>
         <Link href='./components/members/leader'>
           <a className="members-icon">
             <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-              width={150} height={150} alt=""/>
+              width={150} height={150} alt="" />
             <p className="tag1">代表</p>
           </a>
         </Link>
         <Link href='./components/members/konami'>
           <a className="members-icon">
             <Image className="circle" src="/images/members-icon/konami.jpg"
-              width={150} height={150} alt=""/>
+              width={150} height={150} alt="" />
+          </a>
+        </Link>
+        <Link href='./components/members/hyaku'>
+          <a className="members-icon">
+            <Image className="circle" src="/images/members-icon/icon-basecolor.png"
+              width={150} height={150} alt="" />
           </a>
         </Link>
         <Link href='./components/members/konami2'>
           <a className="members-icon">
             <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-              width={150} height={150} alt=""/>
+              width={150} height={150} alt="" />
           </a>
         </Link>
         <Link href='./components/members/konami2'>
           <a className="members-icon">
             <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-              width={150} height={150} alt=""/>
-          </a>
-        </Link>
-        <Link href='./components/members/konami2'>
-          <a className="members-icon">
-            <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-              width={150} height={150} alt=""/>
+              width={150} height={150} alt="" />
           </a>
         </Link>
       </div>
@@ -56,37 +56,37 @@ export default function Members() {
           <Link href='./components/members/konami2'>
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-                width={150} height={150} alt=""/>
+                width={150} height={150} alt="" />
             </a>
           </Link>
           <Link href='./components/members/konami2'>
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-                width={150} height={150} alt=""/>
+                width={150} height={150} alt="" />
             </a>
           </Link>
           <Link href='./components/members/konami2'>
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-                width={150} height={150} alt=""/>
+                width={150} height={150} alt="" />
             </a>
           </Link>
           <Link href='./components/members/konami2'>
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-                width={150} height={150} alt=""/>
+                width={150} height={150} alt="" />
             </a>
           </Link>
           <Link href='./components/members/konami2'>
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-                width={150} height={150} alt=""/>
+                width={150} height={150} alt="" />
             </a>
           </Link>
           <Link href='./components/members/last'>
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-                width={150} height={150} alt=""/>
+                width={150} height={150} alt="" />
             </a>
           </Link>
         </div>

@@ -25,8 +25,14 @@ export function LeftButton(props) {
   )
 }
 
-export default function _(props) {
+export function Button(props) {
   return (
-    <div></div>
+    <div>
+      <Link href={props.href}>
+        <a>
+          <Image src="/images/homeicon.png" width={50} height={50} objectFit="contain" alt="ホームボタン" />
+        </a>
+      </Link>
+    </div>
   )
 }
