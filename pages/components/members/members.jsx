@@ -7,8 +7,8 @@ export default function Members() {
 
   return (
     <div className="members-content">
-      <h2 id="members" className="about-title">MEMBERS</h2>
-      <p className="members-text"> 大学1年生から修士2年までの約40名で活動しています</p>
+      <h2 id="members" className={"about-title" + " " + "title"}>MEMBERS</h2>
+      <p className={"members-text" + " " + "plain-text-japanese"}> 大学1年生から修士2年までの約40名で活動しています</p>
       <div className="members">
         <Link href='./components/members/leader'>
           <a className="members-icon">

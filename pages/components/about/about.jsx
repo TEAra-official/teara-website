@@ -7,7 +7,7 @@ export default function About() {
 
   return (
     <div className="about-content">
-      <h2 id="about" className="about-title">ABOUT</h2>
+      <h2 id="about" className={"about-title" + " " + "title"}>ABOUT</h2>
       <p>
         TEAraはお茶の水女子大学の開発コミュニティです。
         <br />
