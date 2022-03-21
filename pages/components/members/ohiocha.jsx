@@ -10,10 +10,9 @@ export default function ohiocha() {
       <div className="member-content">
         <Image className="circle" src="/images/members-icon/basecolor.png"
           width={180} height={180} alt="ohiochaのアイコン" />
-        <p className="tag2">代表</p>
         <div className="member-detail">
           <p className="member-name">おーいお茶</p>
-          <p>いろんな人に呼ばれます</p>
+          <p>呼ばれます</p>
         </div>
       </div>
       <div className="member-button">

@@ -4,4 +4,4 @@ konami konami.jpg 0
 koiocha basecolor.png 0
 usuiocha basecolor.png 0
 macha basecolor.png 0
-ohiocha basecolor.png 1
+ohiocha basecolor.png 0

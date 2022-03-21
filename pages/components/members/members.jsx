@@ -55,7 +55,6 @@ export default function Members() {
               <a className="members-icon">
                 <Image className="circle" src="/images/members-icon/basecolor.png"
                   width={150} height={150} alt="ohiochaのアイコン" />
-                <p className="tag1">代表</p>
               </a>
             </Link>
           </div>
