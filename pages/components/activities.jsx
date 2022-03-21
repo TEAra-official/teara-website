@@ -27,7 +27,7 @@ export default function Activities() {
             <ul className="list-group list-group-flush">
             <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet"/>
                 <div className="title">
-                    <h1>Activities</h1>
+                 <h2 id="activities" className={"title"}>ACTIVITIES</h2>
                 </div>
                 <div className="plain-text-japanese">
                   {/* ここ */}

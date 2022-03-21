@@ -6,7 +6,7 @@ export default function About() {
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse()
 
   return (
-    <div className="about-content">
+    <div className={"about-content" + " " + "plain-text-japanese"}>
       <h2 id="about" className={"about-title" + " " + "title"}>ABOUT</h2>
       <p>
         TEAraはお茶の水女子大学の開発コミュニティです。

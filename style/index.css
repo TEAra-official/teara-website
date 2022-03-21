@@ -144,16 +144,7 @@ a{
   margin-left:4vw;
 }
 
-.plain-text{
-}
-
 .title{
-  /* font-family: 'Roboto Serif', sans-serif; */
-  /* 1 */
-  /* font-family: "Times New Roman"; */
-  /* 2 */
-  /* font-family: 'Lora', serif; */
-  /* 3 */
   font-family: 'Cormorant Garamond', serif;
   color: rgb(105,59,7);
   text-align:center;
@@ -161,23 +152,12 @@ a{
 }
 
 .plain-text-japanese{
-  /* 1. M PLUS Rounded 1c */
-  /* font-family: 'M PLUS Rounded 1c', sans-serif;  */
-  /* 2. Shippori Mincho B1*/
-  /* font-family: 'Shippori Mincho B1', serif; */
-  /*3. Kiwi Maru*/
-  /* font-family: 'Kiwi Maru', serif; */
+  font-family: 'M PLUS Rounded 1c', sans-serif; 
   color: rgb(105,59,7);
 }
 
 .plain-text-english{
- /* font-family: 'Roboto Serif', sans-serif; */
-  /* 1 */
-  /* font-family: "Times New Roman"; */
-  /* 2 */
-  font-family: 'Lora', serif;
-  /* 3 */
-  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: 'Cormorant Garamond', serif;
   color: rgb(105,59,7);
   margin-top: 1.5em;
   margin-bottom: 0.5em;
