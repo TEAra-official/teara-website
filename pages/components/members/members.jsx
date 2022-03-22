@@ -30,33 +30,9 @@ export default function Members() {
                 width={150} height={150} alt="konamiのアイコン" />
             </a>
           </Link>
-          <Link href='./components/members/koiocha'>
-            <a className="members-icon">
-              <Image className="circle" src="/images/members-icon/basecolor.png"
-                width={150} height={150} alt="koiochaのアイコン" />
-            </a>
-          </Link>
-          <Link href='./components/members/usuiocha'>
-            <a className="members-icon">
-              <Image className="circle" src="/images/members-icon/basecolor.png"
-                width={150} height={150} alt="usuiochaのアイコン" />
-            </a>
-          </Link>
-          <Link href='./components/members/macha'>
-            <a className="members-icon">
-              <Image className="circle" src="/images/members-icon/basecolor.png"
-                width={150} height={150} alt="machaのアイコン" />
-            </a>
-          </Link>
         </div>
         <div {...getCollapseProps()}>
           <div className="members">
-            <Link href='./components/members/ohiocha'>
-              <a className="members-icon">
-                <Image className="circle" src="/images/members-icon/basecolor.png"
-                  width={150} height={150} alt="ohiochaのアイコン" />
-              </a>
-            </Link>
           </div>
         </div>
       </div>
