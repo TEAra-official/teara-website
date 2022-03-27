@@ -125,6 +125,7 @@ fi
 }
 
 # 左ボタン用に、member_list.txtから最後のファイル名を取得
+main(){
 getLeftButtonLink
 
 # これから作る個人ページの情報を受け取る
@@ -144,3 +145,5 @@ updateMemberList
 
 # メンバー一覧の作成
 sh members.sh
+}
+main
