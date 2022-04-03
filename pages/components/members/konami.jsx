@@ -1,5 +1,5 @@
 import TearaFooter from '../../footer'
-import { LeftButton, RightButton, Button } from './button'
+import { LeftButton, RightButton, Button } from './button.com'
 import PageTitle from '../page-title'
 import Image from 'next/image'
 
