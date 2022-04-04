@@ -1,5 +1,5 @@
 import TearaFooter from '../../footer'
-import { RightButton } from './button'
+import { RightButton, Button } from './button'
 import PageTitle from '../page-title'
 import Image from 'next/image'
 
@@ -9,7 +9,7 @@ export default function Leader() {
       <PageTitle title="MEMBER" />
       <div className="member-content">
         <Image className="circle" src="/images/members-icon/icon-basecolor.png"
-          width={180} height={180} alt=""/>
+          width={180} height={180} alt="" />
         <p className="tag2">代表</p>
         <div className="member-detail">
           <p className="member-name">leader</p>
@@ -18,6 +18,7 @@ export default function Leader() {
       </div>
       <div className="member-button">
         <div />
+        <Button href="/" />
         <RightButton
           href="/components/members/konami"
         />
