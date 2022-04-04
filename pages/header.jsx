@@ -10,13 +10,12 @@ export default function TearaNavbar() {
                 <Image src="/images/teara-white-trans.png" alt="logo" width="40" height="40" />
               </div>
               {/* スクロールボタン */}
-              <div className={"header-text" + " " + "plain-text-english"}>  
-                  <Nav.Link>
-                    <Scroll to="about" smooth={true} duration={600} offset={-60}>about</Scroll>
-                    <Scroll to="activities" smooth={true} duration={600} offset={-50}>activities</Scroll>
-                    <Scroll to="members" smooth={true} duration={600} offset={100}>members</Scroll>
-                    <Scroll to="contact" smooth={true} duration={600} offset={100}>contact</Scroll>
-                  </Nav.Link>
+                <Nav.Link className="header-text plain-text-english">
+                  <Scroll to="about" smooth={true} duration={600} offset={-60}>about</Scroll>
+                  <Scroll to="activities" smooth={true} duration={600} offset={-50}>activities</Scroll>
+                  <Scroll to="members" smooth={true} duration={600} offset={100}>members</Scroll>
+                  <Scroll to="contact" smooth={true} duration={600} offset={100}>contact</Scroll>
+                </Nav.Link>
                 </div>
             </div>
         </Navbar>
