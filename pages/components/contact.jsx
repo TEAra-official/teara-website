@@ -1,4 +1,3 @@
-
 export default function Conatct() {
   return (
     <div className="contact-content">
