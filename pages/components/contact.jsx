@@ -1,6 +1,4 @@
-
 export default function Conatct() {
-
   return (
     <div className="contact-content plain-text-japanese">
       <h2 id="contact" className="contact-title title">CONTACT</h2>
