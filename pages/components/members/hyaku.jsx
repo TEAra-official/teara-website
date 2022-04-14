@@ -16,10 +16,10 @@ export default function Hyaku() {
         </div>
       </div>
       <div className="member-button">
-        <LeftButton href="/components/members/konami" />
+        <LeftButton href="/components/members/tori" />
         <Button href="/" />
         <RightButton
-          href="/components/members/konami2" />
+          href="/components/members/konami" />
       </div>
       <TearaFooter />
     </div>
