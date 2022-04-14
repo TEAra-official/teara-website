@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import TearaNavbar from './header'
 import TearaFooter from './footer'
-import About from './components/about/about.jsx'
+import About from './components/about/about'
 import Activities from './components/activities'
 import Contact from './components/contact'
 import Members from './components/members/members'
 import MainTitle from './components/main-title'
+import Konami from './components/members/konami.page.jsx'
 
 export default function Home() {
   return (

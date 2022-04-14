@@ -4,5 +4,10 @@ module.exports = {
   assetPrefix: urlPrefix,
   basePath: urlPrefix,
   trailingSlash: true,  
-  pageExtensions: ['.jsx']
+  pageExtensions: ['page.jsx'],
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
+  publicRuntimeConfig: { urlPrefix },
 };
