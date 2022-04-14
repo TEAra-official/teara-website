@@ -1,6 +1,7 @@
 /* ensure all pages have Bootstrap CSS */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=M+PLUS+Rounded+1c&family=Reggae+One&family=Roboto+Serif:ital,wght@0,500;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
 
 .wrapper{
   display: flex;
@@ -128,10 +129,6 @@
   font-family: "游ゴシック";
 }
 
-.plain-text{
-  font-family: 'Roboto Mono', monospace;
-}
-
 .title{
   font-family: 'Cormorant Garamond', serif;
   color: rgb(105,59,7);
@@ -140,7 +137,7 @@
 }
 
 .plain-text-japanese{
-  font-family: 'M PLUS Rounded 1c', sans-serif; 
+  font-family: 'M PLUS Rounded 1c', sans-serif, 'Reggae One', 'Roboto+Serif'; 
   color: rgb(105,59,7);
 }
 
