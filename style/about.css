@@ -6,7 +6,6 @@
   margin-bottom: 0.5em;
   color: rgb(105,59,7);
   text-align: center; 
-  font-family: "Times New Roman";
   background-color: white;
 }
 
@@ -17,7 +16,6 @@
   margin-bottom: 1em; 
   text-align: center; 
   background-color: white;
-  font-family: "游ゴシック";
 }
 
 .toggle {
