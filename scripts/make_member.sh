@@ -36,11 +36,11 @@ getInfo() {
   echo -n "ローマ字で名前を入力してください（ファイル名になる名前）:"
   # RomaNameに重複があるか確かめる
   checkRomaName RomaName
-  echo -n "名前を入力してください（表示される名前）:"
+  echo -n "名前を入力してください(表示される名前):"
   read Name
   echo -n "自己紹介文を入力してください:"
   read Text
-  echo -n "代表ですか（y/n）:"
+  echo -n "代表ですか(y/n):"
   read Daihyo
   echo -n "アイコンの画像のファイル名を教えてください:"
   read Icon
@@ -49,7 +49,7 @@ getInfo() {
 # 個人ページを作る
 createMember() {
 if [ "$Daihyo" = "y" ]; then
-cat <<MAIN_L > ../pages/components/members/${RomaName}.jsx
+cat <<MAIN_L > ../pages/components/members/${RomaName}.page.jsx
 import TearaFooter from '../../footer'
 import { LeftButton, RightButton, Button } from './button'
 import PageTitle from '../page-title'
@@ -60,7 +60,7 @@ export default function ${RomaName}() {
     <div>
       <PageTitle title="MEMBER" />
       <div className="member-content">
-        <Image className="circle" src="/images/members-icon/${Icon}"
+        <Image className="circle" src="../../../images/members-icon/${Icon}"
           width={180} height={180} alt="${RomaName}のアイコン" />
         <p className="tag2">代表</p>
         <div className="member-detail">
@@ -79,7 +79,7 @@ export default function ${RomaName}() {
 }
 MAIN_L
 else
-cat <<MAIN > ../pages/components/members/${RomaName}.jsx
+cat <<MAIN > ../pages/components/members/${RomaName}.page.jsx
 import TearaFooter from '../../footer'
 import { LeftButton, RightButton, Button } from './button'
 import PageTitle from '../page-title'
@@ -90,7 +90,7 @@ export default function ${RomaName}() {
     <div>
       <PageTitle title="MEMBER" />
       <div className="member-content">
-        <Image className="circle" src="/images/members-icon/${Icon}"
+        <Image className="circle" src="../../../images/members-icon/${Icon}"
           width={180} height={180} alt="${RomaName}のアイコン" />
         <div className="member-detail">
           <p className="member-name">${Name}</p>
@@ -112,7 +112,7 @@ fi
 
 # ひとつ前のファイルの右ボタンを作る。もともと何もなかった位置（<div />）をリンクの入った右ボタンに置換
 createRightButton() {
-sed -i -e "s!<div />!<RightButton href=\"/components/members/${RomaName}\" />!" ../pages/components/members/${leftName}.jsx
+sed -i -e "s!<div />!<RightButton href=\"/components/members/${RomaName}\" />!" ../pages/components/members/${leftName}.page.jsx
 }
 
 # members_list.txtを更新
@@ -133,12 +133,12 @@ getInfo
 
 # 個人ページを作る
 createMember
-echo "${RomaName}.jsxが作られました"
+echo "${RomaName}.page.jsxが作られました"
 
 # ひとつ前のファイルの右ボタンを作る。
 # もともと何もなかった位置（<div />）をリンクの入った右ボタンに置換
 createRightButton
-echo "${leftName}.jsxのRightButtonのリンクを変更しました"
+echo "${leftName}.page.jsxのRightButtonのリンクを変更しました"
 
 # members_list.txtを更新
 updateMemberList
