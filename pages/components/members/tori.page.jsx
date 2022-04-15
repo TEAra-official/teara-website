@@ -8,7 +8,7 @@ export default function Tori() {
     <div>
       <PageTitle title="MEMBER" />
       <div className="member-content">
-        <Image className="circle" src="/images/members-icon/tori.jpg"
+        <Image className="circle" src="../../../images/members-icon/tori.jpg"
           width={180} height={180} alt="Toriのアイコン" />
         <p className="tag2">代表</p>
         <div className="member-detail">

@@ -6,7 +6,7 @@ export function RightButton(props) {
     <div>
       <Link href={props.href}>
         <a>
-          <Image src="/images/right-button.jpg" width={50} height={50} objectFit="contain" alt="右ボタン" />
+          <Image src="../../../images/right-button.jpg" width={50} height={50} objectFit="contain" alt="右ボタン" />
         </a>
       </Link>
     </div>
@@ -18,7 +18,7 @@ export function LeftButton(props) {
     <div>
       <Link href={props.href}>
         <a>
-          <Image src="/images/left-button.jpg" width={50} height={50} objectFit="contain" alt="左ボタン" />
+          <Image src="../../../images/left-button.jpg" width={50} height={50} objectFit="contain" alt="左ボタン" />
         </a>
       </Link>
     </div>
@@ -30,7 +30,7 @@ export function Button(props) {
     <div>
       <Link href={props.href}>
         <a>
-          <Image src="/images/homeicon.png" width={50} height={50} objectFit="contain" alt="ホームボタン" />
+          <Image src="../../../images/homeicon.png" width={50} height={50} objectFit="contain" alt="ホームボタン" />
         </a>
       </Link>
     </div>

@@ -8,7 +8,7 @@ export default function konami() {
     <div>
       <PageTitle title="MEMBER" />
       <div className="member-content">
-        <Image className="circle" src="/images/members-icon/konami.jpg"
+        <Image className="circle" src="../../../images/members-icon/konami.jpg"
           width={180} height={180} alt="konamiのアイコン" />
         <div className="member-detail">
           <p className="member-name">konami</p>
