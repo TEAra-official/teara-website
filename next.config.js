@@ -9,5 +9,4 @@ module.exports = {
     loader: 'akamai',
     path: '',
   },
-  publicRuntimeConfig: { urlPrefix },
 };
