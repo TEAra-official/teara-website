@@ -3,7 +3,7 @@ name: Deploy Next.js app
 # Triggers the workflow on push or pull request events but only for the main branch
 on:
   push:
-    branches: [ pj-23-upload, main ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
 
