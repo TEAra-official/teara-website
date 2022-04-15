@@ -50,7 +50,7 @@ getInfo() {
 createMember() {
 if [ "$Daihyo" = "y" ]; then
 cat <<MAIN_L > ../pages/components/members/${RomaName}.page.jsx
-import TearaFooter from '../../footer'
+import TearaFooter from './footer'
 import { LeftButton, RightButton, Button } from './button'
 import PageTitle from '../page-title'
 import Image from 'next/image'
@@ -80,7 +80,7 @@ export default function ${RomaName}() {
 MAIN_L
 else
 cat <<MAIN > ../pages/components/members/${RomaName}.page.jsx
-import TearaFooter from '../../footer'
+import TearaFooter from './footer'
 import { LeftButton, RightButton, Button } from './button'
 import PageTitle from '../page-title'
 import Image from 'next/image'
