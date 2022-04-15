@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Add_activities() {
     return (
         <div className="activity-background">
