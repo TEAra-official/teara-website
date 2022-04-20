@@ -62,6 +62,7 @@
 }
 
 .circle {
+    background-image: url(../public/images/members-icon/basecolor.png);
     vertical-align: top;
     display: inline-block;
     width:  180px;       /* ※縦横を同値に */

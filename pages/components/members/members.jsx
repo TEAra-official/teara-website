@@ -20,7 +20,7 @@ export default function Members() {
           </Link>
           <Link href='./components/members/hyaku'>
             <a className="members-icon">
-              <Image className="circle" src="/images/members-icon/basecolor.png"
+              <Image className="circle" src="/images/members-icon/hyaku.png"
                 width={150} height={150} alt="hyakuのアイコン" />
             </a>
           </Link>
@@ -28,19 +28,6 @@ export default function Members() {
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/konami.jpg"
                 width={150} height={150} alt="konamiのアイコン" />
-            </a>
-          </Link>
-          <Link href='./components/members/pai'>
-            <a className="members-icon">
-              <Image className="circle" src="/images/members-icon/basecolor.png"
-                width={150} height={150} alt="paiのアイコン" />
-              <p className="tag1">代表</p>
-            </a>
-          </Link>
-          <Link href='./components/members/ocha'>
-            <a className="members-icon">
-              <Image className="circle" src="/images/members-icon/basecolor.png"
-                width={150} height={150} alt="ochaのアイコン" />
             </a>
           </Link>
         </div>
