@@ -26,8 +26,6 @@
   box-sizing: border-box;    
   display: inline-block;
   text-align: center;
-  font-family: "Mplus 1p";
-  font-size: 16px;
   min-width: 100px;
   min-height: 25px;
 }
