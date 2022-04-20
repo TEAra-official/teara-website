@@ -26,7 +26,6 @@
 .footer-background {
   height: 80px;
   width: 100%;
-  margin-top: 20px;
   background-image: url(../public/images/background.jpg);
   background-repeat: no-repeat;
   background-position: 0 40%;
