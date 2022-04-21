@@ -1,8 +1,8 @@
 export default function About() {
   return (
     <div className="about-content">
-      <h2 id="about" className="about-title">ABOUT</h2>
-      <p>
+      <h2 id="about" className="about-title title">ABOUT</h2>
+      <p className="plain-text-japanese">
         TEAraは2021年の6月に誕生したお茶の水女子大学の開発コミュニティです。
         <br />
         『大学内で積極的にプログラミングに取り組んでいる仲間を見つける』<br />

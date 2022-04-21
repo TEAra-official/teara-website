@@ -7,7 +7,7 @@ export default function konami() {
   return (
     <div>
       <PageTitle title="MEMBER" />
-      <div className="member-content">
+      <div className="member-content plain-text-japanese">
         <Image className="circle" src="../../../images/members-icon/konami.jpg"
           width={180} height={180} alt="konamiのアイコン" />
         <div className="member-detail">
@@ -18,7 +18,7 @@ export default function konami() {
       <div className="member-button">
         <LeftButton href="/components/members/hyaku" />
         <Button href="/" />
-        <RightButton href="/components/members/ai" />
+        <div />
       </div>
       <TearaFooter />
     </div>

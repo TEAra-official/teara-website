@@ -59,7 +59,7 @@ export default function ${RomaName}() {
   return (
     <div>
       <PageTitle title="MEMBER" />
-      <div className="member-content">
+      <div className="member-content plain-text-japanese">
         <Image className="circle" src="../../../images/members-icon/${Icon}"
           width={180} height={180} alt="${RomaName}のアイコン" />
         <p className="tag2">代表</p>
@@ -89,7 +89,7 @@ export default function ${RomaName}() {
   return (
     <div>
       <PageTitle title="MEMBER" />
-      <div className="member-content">
+      <div className="member-content plain-text-japanese">
         <Image className="circle" src="../../../images/members-icon/${Icon}"
           width={180} height={180} alt="${RomaName}のアイコン" />
         <div className="member-detail">

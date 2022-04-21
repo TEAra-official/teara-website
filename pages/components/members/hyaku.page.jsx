@@ -8,7 +8,7 @@ export default function Hyaku() {
     <div>
       <PageTitle title="MEMBER" />
       <div className="member-content">
-        <Image className="circle" src="../../../images/members-icon/basecolor.png"
+        <Image className="circle" src="../../../images/members-icon/hyaku.png"
           width={180} height={180} alt="si-tmのアイコン" />
         <div className="member-detail">
           <p className="member-name">si-tm</p>
