@@ -30,6 +30,13 @@ export default function Members() {
                 width={150} height={150} alt="konamiのアイコン" />
             </a>
           </Link>
+          <Link href='./components/members/Hunachi'>
+            <a className="members-icon">
+              <Image className="circle" src="/images/members-icon/hunachi.jpg"
+                width={150} height={150} alt="Hunachiのアイコン" />
+              <p className="tag1">代表</p>
+            </a>
+          </Link>
         </div>
         <div {...getCollapseProps()}>
           <div className="members">
