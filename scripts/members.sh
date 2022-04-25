@@ -29,7 +29,7 @@ if [ $1 -lt 6 ]; then
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/$3"
                 width={150} height={150} alt="$2のアイコン" />
-              <p className="tag1">代表</p>
+              <p className="tag1">運営</p>
             </a>
           </Link>
 MEMBERS1_L
@@ -53,7 +53,7 @@ elif [ $1 -eq 6 ]; then
               <a className="members-icon">
                 <Image className="circle" src="/images/members-icon/$3"
                   width={150} height={150} alt="$2のアイコン" />
-                <p className="tag1">代表</p>
+                <p className="tag1">運営</p>
               </a>
             </Link>
 MIDDLE_L
@@ -77,7 +77,7 @@ else
               <a className="members-icon">
                 <Image className="circle" src="/images/members-icon/$3"
                   width={150} height={150} alt="$2のアイコン" />
-                <p className="tag1">代表</p>
+                <p className="tag1">運営</p>
               </a>
             </Link>
 MEMBERS2_L

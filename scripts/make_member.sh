@@ -40,7 +40,7 @@ getInfo() {
   read Name
   echo -n "自己紹介文を入力してください:"
   read Text
-  echo -n "代表ですか(y/n):"
+  echo -n "運営ですか(y/n):"
   read Daihyo
   echo -n "アイコンの画像のファイル名を教えてください:"
   read Icon
@@ -62,7 +62,7 @@ export default function ${RomaName}() {
       <div className="member-content plain-text-japanese">
         <Image className="circle" src="../../../images/members-icon/${Icon}"
           width={180} height={180} alt="${RomaName}のアイコン" />
-        <p className="tag2">代表</p>
+        <p className="tag2">運営</p>
         <div className="member-detail">
           <p className="member-name">${Name}</p>
           <p>${Text}</p>
