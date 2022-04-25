@@ -15,14 +15,14 @@ export default function Members() {
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/tori.jpg"
                 width={150} height={150} alt="toriのアイコン" />
-              <p className="tag1">代表</p>
+              <p className="tag1">運営</p>
             </a>
           </Link>
           <Link href='./components/members/Hunachi'>
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/hunachi.jpg"
                 width={150} height={150} alt="Hunachiのアイコン" />
-              <p className="tag1">代表</p>
+              <p className="tag1">運営</p>
             </a>
           </Link>
           <Link href='./components/members/konami'>

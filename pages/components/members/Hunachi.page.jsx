@@ -13,7 +13,7 @@ export default function Hunachi() {
         <p className="tag2">運営</p>
         <div className="member-detail">
           <p className="member-name">ふなち</p>
-          <p>TEAraの設立者です。ほぼ引退済みの代表です。今はAndroid&Flutterエンジニアとして社会人をしています。IT系の技術ならなんでも好きな雑食系です。</p>
+          <p>TEAraの設立者です。ほぼ引退済みの運営です。今はAndroid&Flutterエンジニアとして社会人をしています。IT系の技術ならなんでも好きな雑食系です。</p>
         </div>
       </div>
       <div className="member-button">
