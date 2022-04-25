@@ -18,10 +18,11 @@ export default function Members() {
               <p className="tag1">代表</p>
             </a>
           </Link>
-          <Link href='./components/members/hyaku'>
+          <Link href='./components/members/Hunachi'>
             <a className="members-icon">
-              <Image className="circle" src="/images/members-icon/hyaku.png"
-                width={150} height={150} alt="hyakuのアイコン" />
+              <Image className="circle" src="/images/members-icon/hunachi.jpg"
+                width={150} height={150} alt="Hunachiのアイコン" />
+              <p className="tag1">代表</p>
             </a>
           </Link>
           <Link href='./components/members/konami'>
@@ -30,11 +31,10 @@ export default function Members() {
                 width={150} height={150} alt="konamiのアイコン" />
             </a>
           </Link>
-          <Link href='./components/members/Hunachi'>
+          <Link href='./components/members/hyaku'>
             <a className="members-icon">
-              <Image className="circle" src="/images/members-icon/hunachi.jpg"
-                width={150} height={150} alt="Hunachiのアイコン" />
-              <p className="tag1">代表</p>
+              <Image className="circle" src="/images/members-icon/hyaku.png"
+                width={150} height={150} alt="hyakuのアイコン" />
             </a>
           </Link>
         </div>

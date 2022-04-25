@@ -10,7 +10,7 @@ export default function Tori() {
       <div className="member-content plain-text-japanese">
         <Image className="circle" src="../../../images/members-icon/tori.jpg"
           width={180} height={180} alt="Toriのアイコン" />
-        <p className="tag2">代表</p>
+        <p className="tag2">運営</p>
         <div className="member-detail">
           <p className="member-name">とり</p>
           <p>TEAraの設立と代表をしています。バックエンド系のお仕事をやっていることが多いです。</p>
@@ -19,7 +19,7 @@ export default function Tori() {
       <div className="member-button">
         <div/>
         <Button href="/" />
-        <RightButton href="/components/members/hyaku" />
+        <RightButton href="/components/members/Hunachi" />
       </div>
       <TearaFooter />
     </div>
