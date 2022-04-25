@@ -30,6 +30,12 @@ export default function Members() {
                 width={150} height={150} alt="konamiのアイコン" />
             </a>
           </Link>
+          <Link href='./components/members/mizuki'>
+            <a className="members-icon">
+              <Image className="circle" src="/images/members-icon/mizuki.png"
+                width={150} height={150} alt="mizukiのアイコン" />
+            </a>
+          </Link>
         </div>
         <div {...getCollapseProps()}>
           <div className="members">
