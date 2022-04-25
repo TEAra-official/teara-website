@@ -18,7 +18,7 @@ export default function Hyaku() {
       <div className="member-button">
         <LeftButton href="/components/members/konami" />
         <Button href="/" />
-        <RightButton href="/components/members/hinata" />
+        <RightButton href="/components/members/aono" />
       </div>
       <TearaFooter />
     </div>
