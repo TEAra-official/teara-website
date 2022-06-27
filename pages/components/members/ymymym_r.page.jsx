@@ -3,22 +3,22 @@ import { LeftButton, RightButton, Button } from './button'
 import PageTitle from '../page-title'
 import Image from 'next/image'
 
-export default function Hyaku() {
+export default function ymymym_r() {
   return (
     <div>
       <PageTitle title="MEMBER" />
       <div className="member-content plain-text-japanese">
-        <Image className="circle" src="../../../images/members-icon/hyaku.png"
-          width={180} height={180} alt="si-tmのアイコン" />
+        <Image className="circle" src="../../../images/members-icon/ym-r.jpg"
+          width={180} height={180} alt="ymymym_rのアイコン" />
         <div className="member-detail">
-          <p className="member-name">si-tm</p>
-          <p>色々やりたいB4</p>
+          <p className="member-name">よもーる</p>
+          <p>のんびり頑張ります〜。</p>
         </div>
       </div>
       <div className="member-button">
-        <LeftButton href="/components/members/konami" />
+        <LeftButton href="/components/members/hyaku" />
         <Button href="/" />
-        <RightButton href="/components/members/ymymym_r" />
+        <div />
       </div>
       <TearaFooter />
     </div>

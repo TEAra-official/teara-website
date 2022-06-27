@@ -37,6 +37,12 @@ export default function Members() {
                 width={150} height={150} alt="hyakuのアイコン" />
             </a>
           </Link>
+          <Link href='./components/members/ymymym_r'>
+            <a className="members-icon">
+              <Image className="circle" src="/images/members-icon/ym-r.jpg"
+                width={150} height={150} alt="ymymym_rのアイコン" />
+            </a>
+          </Link>
         </div>
         <div {...getCollapseProps()}>
           <div className="members">
