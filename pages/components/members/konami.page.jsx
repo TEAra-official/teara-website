@@ -9,9 +9,9 @@ export default function konami() {
       <PageTitle title="MEMBER" />
       <div className="member-content plain-text-japanese">
         <Image className="circle" src="../../../images/members-icon/konami.jpg"
-          width={180} height={180} alt="konamiのアイコン" />
+          width={180} height={180} alt="konamilkのアイコン" />
         <div className="member-detail">
-          <p className="member-name">konami</p>
+          <p className="member-name">konamilk</p>
           <p>競技プログラミングをまったり頑張っています。</p>
         </div>
       </div>

@@ -18,6 +18,13 @@ export default function Members() {
               <p className="tag1">運営</p>
             </a>
           </Link>
+          <Link href='./components/members/Hunachi'>
+            <a className="members-icon">
+              <Image className="circle" src="/images/members-icon/hunachi.jpg"
+                width={150} height={150} alt="Hunachiのアイコン" />
+              <p className="tag1">運営</p>
+            </a>
+          </Link>
           <Link href='./components/members/mizuki'>
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/mizuki.png"
