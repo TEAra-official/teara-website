@@ -3,22 +3,22 @@ import { LeftButton, RightButton, Button } from './button'
 import PageTitle from '../page-title'
 import Image from 'next/image'
 
-export default function konami() {
+export default function mizuki() {
   return (
     <div>
       <PageTitle title="MEMBER" />
       <div className="member-content plain-text-japanese">
-        <Image className="circle" src="../../../images/members-icon/konami.jpg"
-          width={180} height={180} alt="konamilkのアイコン" />
+        <Image className="circle" src="../../../images/members-icon/mizuki.png"
+          width={180} height={180} alt="mizukiのアイコン" />
         <div className="member-detail">
-          <p className="member-name">konamilk</p>
-          <p>競技プログラミングをまったり頑張っています。</p>
+          <p className="member-name">みず吉</p>
+          <p>特にフロントに興味があります！色々頑張ります！</p>
         </div>
       </div>
       <div className="member-button">
-        <LeftButton href="/components/members/mizuki" />
+        <LeftButton href="/components/members/Hunachi" />
         <Button href="/" />
-        <RightButton href="/components/members/hyaku" />
+        <RightButton href="/components/members/konami" />
       </div>
       <TearaFooter />
     </div>
