@@ -1,3 +1,4 @@
 tori tori.jpg 1
-konami konami.jpg 0
+mizuki mizuki.png 1
+konami konami.jpg 1
 hyaku hyaku.png 0
