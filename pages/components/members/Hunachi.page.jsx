@@ -19,7 +19,7 @@ export default function Hunachi() {
       <div className="member-button">
         <LeftButton href="/components/members/tori" />
         <Button href="/" />
-        <RightButton href="/components/members/konami" />
+        <RightButton href="/components/members/mizuki" />
       </div>
       <TearaFooter />
     </div>

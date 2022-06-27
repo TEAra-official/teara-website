@@ -25,6 +25,12 @@ export default function Members() {
               <p className="tag1">運営</p>
             </a>
           </Link>
+          <Link href='./components/members/mizuki'>
+            <a className="members-icon">
+              <Image className="circle" src="/images/members-icon/mizuki.png"
+                width={150} height={150} alt="mizukiのアイコン" />
+            </a>
+          </Link>
           <Link href='./components/members/konami'>
             <a className="members-icon">
               <Image className="circle" src="/images/members-icon/konami.jpg"
@@ -37,9 +43,21 @@ export default function Members() {
                 width={150} height={150} alt="hyakuのアイコン" />
             </a>
           </Link>
+          <Link href='./components/members/aono'>
+            <a className="members-icon">
+              <Image className="circle" src="/images/members-icon/aono.JPG"
+                width={150} height={150} alt="aonoのアイコン" />
+            </a>
+          </Link>
         </div>
         <div {...getCollapseProps()}>
           <div className="members">
+            <Link href='./components/members/hinata'>
+              <a className="members-icon">
+                <Image className="circle" src="/images/members-icon/hinata.jpg"
+                  width={150} height={150} alt="hinataのアイコン" />
+              </a>
+            </Link>
           </div>
         </div>
       </div>
